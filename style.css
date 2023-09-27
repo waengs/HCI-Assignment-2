@@ -1,0 +1,43 @@
+body{
+    background-image: url('main.png');
+}
+.heading{
+    background-color: rgb(214, 129, 144);
+    font-family: 'Courier New';
+}
+
+.check{ 
+    font-family: 'Courier New', Courier, monospace;
+    background-image: url('background.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    border: 2px solid #0b0b0b;
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: #e6a2a2;
+}
+
+td {
+    background-color: #ffffff;
+}
+
+.terms{
+    color: #ffffff;
+}
+
+.form{
+    background-color: #e6a2a2;
+    font-family: 'Courier New', Courier, monospace;
+}

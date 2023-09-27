@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HCI ASSIGNMENT-02</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div class="heading">
+    <center><h1>HCI ASSIGNMENT-02</h1></center>
+    </div>
+    <div class="check">
+    <h3>let's say you want to order a commission from an artist</h3>
+    <h5><i>this is an actual ongoing comission go check her out</i></h5> 
+    <a href="https://www.instagram.com/avurain/"><h4>avurain</h4></a>
+    <h3>look at the table below to determine what kind of piece you want to comission</h3>
+    </div>
+    <table>
+        <thead>
+            <tr>
+                <th>ARTSTYLE</th>
+                <th colspan="2">TYPE</th>
+                <th>PRICE</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td rowspan="3">SKETCH</td>    
+                <td rowspan="3"><img src="sketch.jpg" alt="sketch" width="200" height="auto"></td>
+                <td>BUST</td>
+                <td>$19</td>
+            </tr>
+            <tr>
+                <td>WAIST</td>
+                <td>$24</td>
+            </tr>
+            <tr>
+                <td>FULL BODY</td>
+                <td>$29</td>
+            </tr>
+            <tr>
+                <td rowspan="3">LINEART</td>
+                <td rowspan="3"><img src="lineart.jpg" alt="lineart" width="200" height="auto"></td>
+                <td>BUST</td>
+                <td>$24</td>
+            </tr>
+            <tr>
+                <td>WAIST</td>
+                <td>$39</td>
+            </tr>
+            <tr>
+                <td>FULL BODY</td>
+                <td>$44</td>
+            </tr>
+            <tr>
+                <td rowspan="3">FULLY PAINTED</td>
+                <td rowspan="3"><img src="fullypainted.jpg" alt="fully painted" width="200" height="auto"></td>
+                <td>BUST</td>
+                <td>$29</td>
+            </tr>
+            <tr>
+                <td>WAIST</td>
+                <td>$44</td>
+            </tr>
+            <tr>
+                <td>FULL BODY</td>
+                <td>$59</td>
+            </tr>
+            <tr>
+                <td rowspan="3">CHIBI</td>
+                <td rowspan="3"><img src="chibi.jpg" alt="chibi" width="200" height="auto"></td>
+                <td>BUST</td>
+                <td>$19</td>
+            </tr>
+            <tr>
+                <td>WAIST</td>
+                <td>$24</td>
+            </tr>
+            <tr>
+                <td>FULL BODY</td>
+                <td>$29</td>
+            </tr>
+        </tbody>
+    </table>
+    <div class="terms">
+    <p><i>*complicated background is additional $15 and complicated outfit is additional $8*</i></p>
+    </div>
+    <div class="form">
+    <h3>Fill in this form to order:</h3>
+    <form>
+        <label for="date"><b>Date of order:</b></label><br>
+        <input type="date" id="orderdate" name="orderdate"><br>
+        <label for="name"><b>Insert your name:</b></label><br>
+        <input type="text" id="name" name="name" required><br>
+        <label for="email"><b>Email address</b></label><br>
+        <input type="email" id="email" name="email" required><br>
+        <label for="artstyle"><b>Artstyle</b></label><br>
+        <input type="radio" id="sketch" name="artsyle" value="sketch" checked>
+        <label for="sketch">sketch</label><br>
+        <input type="radio" id="lineart" name="artsyle" value="lineart">
+        <label for="lineart">lineart</label><br>
+        <input type="radio" id="fully painted" name="artsyle" value="fully painted">
+        <label for="fully painted">fully painted</label><br>
+        <input type="radio" id="chibi" name="artsyle" value="chibi">
+        <label for="chibi">chibi</label><br>
+        <label for="extras"><b>Extras</b></label><br>
+        <input type="checkbox" id="background" name="extra" value="outfit">
+        <label for="background">background</label><br>
+        <input type="checkbox" id="outfit" name="extra" value="outfit">
+        <label for="outfit">outfit</label><br>
+        <input type="submit" value="submit">
+    </form>
+    </div>
+</body>
+</html>
